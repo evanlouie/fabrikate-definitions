@@ -6,6 +6,6 @@
 
 Custom chart changes:
 
-| Setting                         | Value          | Description                                        |
-| ------------------------------- | -------------- | -------------------------------------------------- |
-| global.proxy.includeIPRanges    | "0.0.0.0"      | Allows all egress traffic by default               |
+| Setting                      | Value     | Description                          |
+| ---------------------------- | --------- | ------------------------------------ |
+| global.proxy.includeIPRanges | "0.0.0.0" | Allows all egress traffic by default |

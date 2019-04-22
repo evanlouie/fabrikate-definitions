@@ -10,7 +10,7 @@ This [fabrikate](http://github.com/microsoft/fabrikate) stack installs Jaeger on
 
 ### Setup
 
-Make sure your helm incubator repository is pointed at 	https://kubernetes-charts-incubator.storage.googleapis.com/. Older versions of Helm will have the incubator repository configured to a different location.
+Make sure your helm incubator repository is pointed at https://kubernetes-charts-incubator.storage.googleapis.com/. Older versions of Helm will have the incubator repository configured to a different location.
 
 Run the following in a terminal/shell:
 
@@ -24,14 +24,14 @@ helm repo remove incubator && helm repo add incubator https://kubernetes-charts-
 
 ```json
 {
-    "name": "my-cool-stack",
-    "subcomponents": [
-        {
-            "name": "fabrikate-jaeger",
-            "source": "https://github.com/bnookala/fabrikate-jaeger",
-            "method": "git"
-        }
-    ]
+  "name": "my-cool-stack",
+  "subcomponents": [
+    {
+      "name": "fabrikate-jaeger",
+      "source": "https://github.com/bnookala/fabrikate-jaeger",
+      "method": "git"
+    }
+  ]
 }
 ```
 
